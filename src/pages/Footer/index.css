@@ -1,0 +1,22 @@
+.footer-container {
+	margin-left: 50%;
+	transform: translate(-50%);
+	border-top: solid 0.2vh #38447a;
+	background-color: white;
+	width: 70%;
+	min-height: 10vh;
+	height: auto;
+	display: flex;
+	font-size: 1.7vh;
+}
+
+.footer-title {
+	font-weight: bold;
+}
+
+.bot-sect {
+	width: 30%;
+	height: auto;
+	padding: 2%;
+	line-height: 1.2;
+}

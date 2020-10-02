@@ -1,0 +1,47 @@
+.logo {
+	display: flex;
+	margin-left: 6%;
+}
+
+.logo-text {
+	margin-top: 1.4vh;
+	margin-left: 1vh;
+	line-height: 1.2;
+	font-size: 3.2vh;
+}
+
+nav {
+	margin-left: 50%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	transform: translate(-50%);
+	background-color: rgb(255, 255, 255);
+	width: 70%;
+	border-bottom: solid 0.2vh #38447a;
+}
+
+nav,
+.nav-links {
+	display: flex;
+}
+
+.nav-links {
+	margin-right: 6%;
+	margin-left: auto;
+}
+
+.nav-links li {
+	padding: 3vh;
+	font-size: 2.5vh;
+}
+
+.nav-links a {
+	font-size: 3vh;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-img {
+	height: 10.3vh;
+	margin-right: 2%;
+}
