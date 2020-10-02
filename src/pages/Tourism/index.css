@@ -1,0 +1,37 @@
+.tourism-content {
+	margin-left: 50%;
+	transform: translate(-50%);
+	background-color: white;
+	width: 80%;
+	min-height: 70vh;
+	height: auto;
+}
+
+.final-place {
+	padding-bottom: 5vh;
+}
+
+.tourism-title {
+	padding-top: 10vh;
+	padding-bottom: 2vh;
+	font-size: 6vh;
+	text-align: center;
+}
+
+.tourism-image {
+	height: 30vh;
+	margin-right: 3vw;
+}
+
+.tourism-images {
+	margin-bottom: 3vh;
+}
+
+.tourism-places {
+	margin-left: 7vw;
+	margin-right: 7vw;
+}
+
+.tourism-context {
+	font-size: 3vh;
+}

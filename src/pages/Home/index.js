@@ -64,7 +64,7 @@ function Home() {
 					className="body-image"
 				></img>
 				<br />
-				<h1>Title</h1>
+				<h1>Country History</h1>
 				<p className="body-context">
 					Ultrices dui sapien eget mi. Rhoncus mattis rhoncus urna
 					neque viverra justo nec ultrices dui. Nisl tincidunt eget

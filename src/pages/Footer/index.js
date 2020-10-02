@@ -11,6 +11,7 @@ function Footer() {
 					I am a Full Stack Developer experimenting with different
 					themes and technologies to improve and increase my skillset.
 				</p>
+				<br />
 				<p>©Gurinderpreet Singh 2020</p>
 			</div>
 			<div className="web-description bot-sect">
