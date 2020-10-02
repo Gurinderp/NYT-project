@@ -1,13 +1,27 @@
+.area-image {
+	height: 18vh;
+	margin-bottom: 3vh;
+	margin-top: 1vh;
+}
+
 body {
 	background-image: linear-gradient(
 		to right,
 		#ff9933,
 		#ff9933,
-		#ff9933,
-		#138808,
 		#138808,
 		#138808
 	);
+}
+
+.body-context {
+	line-height: 3.5vh;
+}
+
+.body-image {
+	margin-top: 1.5vh;
+	margin-bottom: 4vh;
+	height: 43vh;
 }
 
 .home-content {
@@ -25,7 +39,11 @@ body {
 	width: 75%;
 	padding: 3%;
 	font-size: 2.5vh;
-	line-height: 3vh;
+}
+
+h1 {
+	font-size: 4vh;
+	margin-bottom: 3vh;
 }
 
 .top-5s {

@@ -1,11 +1,13 @@
 import React from "react";
 import "./index.css";
+import placeholder from "../../assets/placeholderimage.png";
 
 function Home() {
 	return (
 		<div className="home-content">
 			<div className="home-text">
-				<p>
+				<h1>Overview</h1>
+				<p className="body-context">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 					do eiusmod tempor incididunt ut labore et dolore magna
 					aliqua. Orci a scelerisque purus semper. Viverra vitae
@@ -17,7 +19,8 @@ function Home() {
 					augue mauris augue neque.{" "}
 				</p>
 				<br />
-				<p>
+				<h1>Historical sites</h1>
+				<p className="body-context">
 					Aliquet nec ullamcorper sit amet risus nullam eget felis
 					eget. Interdum consectetur libero id faucibus nisl tincidunt
 					eget nullam. Tempus urna et pharetra pharetra massa massa
@@ -30,8 +33,14 @@ function Home() {
 					Tincidunt id aliquet risus feugiat. Fringilla est
 					ullamcorper eget nulla facilisi etiam dignissim diam.{" "}
 				</p>
+				<img
+					src={placeholder}
+					alt="placeholder"
+					className="body-image"
+				></img>
 				<br />
-				<p>
+				<h1>Tourist Attractions</h1>
+				<p className="body-context">
 					Aliquam malesuada bibendum arcu vitae elementum curabitur
 					vitae nunc sed. Scelerisque mauris pellentesque pulvinar
 					pellentesque habitant morbi. Lorem ipsum dolor sit amet
@@ -49,8 +58,14 @@ function Home() {
 					nibh mauris cursus mattis molestie a iaculis at. Arcu odio
 					ut sem nulla pharetra diam sit.
 				</p>
+				<img
+					src={placeholder}
+					alt="placeholder"
+					className="body-image"
+				></img>
 				<br />
-				<p>
+				<h1>Title</h1>
+				<p className="body-context">
 					Ultrices dui sapien eget mi. Rhoncus mattis rhoncus urna
 					neque viverra justo nec ultrices dui. Nisl tincidunt eget
 					nullam non nisi est. Ultricies lacus sed turpis tincidunt id
@@ -60,6 +75,11 @@ function Home() {
 					euismod elementum nisi quis eleifend quam adipiscing. Ut sem
 					nulla pharetra diam sit amet nisl suscipit adipiscing.
 				</p>
+				<img
+					src={placeholder}
+					alt="placeholder"
+					className="body-image"
+				></img>
 			</div>
 			<div className="top-5s">
 				<div className="top-historical">
@@ -67,23 +87,43 @@ function Home() {
 					<ul>
 						<li>
 							<p>1. Number 1</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 						<li>
 							<p>2. Number 2</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 						<li>
 							<p>3. Number 3</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 						<li>
 							<p>4. Number 4</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 						<li>
 							<p>5. Number 5</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 					</ul>
 				</div>
@@ -92,23 +132,43 @@ function Home() {
 					<ul>
 						<li>
 							<p>1. Number 1</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 						<li>
 							<p>2. Number 2</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 						<li>
 							<p>3. Number 3</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 						<li>
 							<p>4. Number 4</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 						<li>
 							<p>5. Number 5</p>
-							<img></img>
+							<img
+								src={placeholder}
+								alt="placeholder"
+								className="area-image"
+							></img>
 						</li>
 					</ul>
 				</div>
