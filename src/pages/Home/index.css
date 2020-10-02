@@ -28,7 +28,7 @@ body {
 	margin-left: 50%;
 	transform: translate(-50%);
 	background-color: white;
-	width: 70%;
+	width: 80%;
 	min-height: 70vh;
 	height: auto;
 	display: flex;
@@ -37,18 +37,20 @@ body {
 .home-text {
 	margin-left: 0;
 	width: 75%;
-	padding: 3%;
+	padding: 4%;
 	font-size: 2.5vh;
 }
 
 h1 {
 	font-size: 4vh;
+	margin-top: 3vh;
 	margin-bottom: 3vh;
 }
 
 .top-5s {
 	width: 25%;
 	padding: 2%;
+	margin-top: 5vh;
 }
 
 .t5-title {

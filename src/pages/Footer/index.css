@@ -1,9 +1,8 @@
 .footer-container {
 	margin-left: 50%;
 	transform: translate(-50%);
-	border-top: solid 0.2vh #38447a;
-	background-color: white;
-	width: 70%;
+	background-color: rgb(212, 212, 212);
+	width: 80%;
 	min-height: 10vh;
 	height: auto;
 	display: flex;

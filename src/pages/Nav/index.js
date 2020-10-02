@@ -7,7 +7,9 @@ function Nav() {
 	return (
 		<nav>
 			<div className="logo">
-				<img className="nav-img" alt="nav bar" src={chakra}></img>
+				<Link to="/">
+					<img className="nav-img" alt="nav bar" src={chakra}></img>
+				</Link>
 				<p className="logo-text">
 					INDIA <br /> DESTINATIONS
 				</p>
