@@ -24,6 +24,11 @@ body {
 	height: 43vh;
 }
 
+.cultural-imgs-home img {
+	height: 35vh;
+	margin-right: 1%;
+}
+
 .home-content {
 	margin-left: 50%;
 	transform: translate(-50%);
@@ -45,6 +50,10 @@ h1 {
 	font-size: 4vh;
 	margin-top: 3vh;
 	margin-bottom: 3vh;
+}
+
+.homepage-img-row {
+	display: flex;
 }
 
 .top-5s {

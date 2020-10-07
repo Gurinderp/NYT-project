@@ -1,6 +1,21 @@
 import React from "react";
 import "./index.css";
+import home1 from "../../assets/homepage1.jpg";
+import home2 from "../../assets/homepage2.jpg";
+import home3 from "../../assets/homepage3.jpg";
+import home4 from "../../assets/homepage4.jpg";
+import home5 from "../../assets/homepage5.jpg";
 import placeholder from "../../assets/placeholderimage.png";
+import dehli1 from "../../assets/dehli1.jpg";
+import mumbai1 from "../../assets/mumbai1.jpg";
+import bengaluru1 from "../../assets/bengaluru1.jpg";
+import amritsar1 from "../../assets/amritsar1.jpg";
+import jaipur1 from "../../assets/jaipur1.jpg";
+import agra1 from "../../assets/agra1.jpg";
+import amritsar2 from "../../assets/amritsar2.jpg";
+import madurai2 from "../../assets/madurai2.jpg";
+import jaisalmer1 from "../../assets/jaisalmer1.jpg";
+import jaisalmer2 from "../../assets/jaisalmer2.jpg";
 
 function Home() {
 	return (
@@ -33,11 +48,7 @@ function Home() {
 					Tincidunt id aliquet risus feugiat. Fringilla est
 					ullamcorper eget nulla facilisi etiam dignissim diam.{" "}
 				</p>
-				<img
-					src={placeholder}
-					alt="placeholder"
-					className="body-image"
-				></img>
+				<img src={home5} alt="placeholder" className="body-image"></img>
 				<br />
 				<h1>Tourist Attractions</h1>
 				<p className="body-context">
@@ -58,13 +69,9 @@ function Home() {
 					nibh mauris cursus mattis molestie a iaculis at. Arcu odio
 					ut sem nulla pharetra diam sit.
 				</p>
-				<img
-					src={placeholder}
-					alt="placeholder"
-					className="body-image"
-				></img>
+				<img src={home1} alt="placeholder" className="body-image"></img>
 				<br />
-				<h1>Country History</h1>
+				<h1>Culture and History</h1>
 				<p className="body-context">
 					Ultrices dui sapien eget mi. Rhoncus mattis rhoncus urna
 					neque viverra justo nec ultrices dui. Nisl tincidunt eget
@@ -75,52 +82,66 @@ function Home() {
 					euismod elementum nisi quis eleifend quam adipiscing. Ut sem
 					nulla pharetra diam sit amet nisl suscipit adipiscing.
 				</p>
-				<img
-					src={placeholder}
-					alt="placeholder"
-					className="body-image"
-				></img>
+				<div className="cultural-imgs-home">
+					<img
+						src={home3}
+						alt="placeholder"
+						className="body-image"
+					></img>
+					<div className="homepage-img-row">
+						<img
+							src={home2}
+							alt="placeholder"
+							className="body-image"
+						></img>
+						<img
+							src={home4}
+							alt="placeholder"
+							className="body-image"
+						></img>
+					</div>
+				</div>
 			</div>
 			<div className="top-5s">
 				<div className="top-historical">
 					<p className="t5-title">Top 5 Historical</p>
 					<ul>
 						<li>
-							<p>1. Number 1</p>
+							<p>1. Taj Mahal</p>
 							<img
-								src={placeholder}
+								src={agra1}
 								alt="placeholder"
 								className="area-image"
 							></img>
 						</li>
 						<li>
-							<p>2. Number 2</p>
+							<p>2. Golden Temple</p>
 							<img
-								src={placeholder}
+								src={amritsar2}
 								alt="placeholder"
 								className="area-image"
 							></img>
 						</li>
 						<li>
-							<p>3. Number 3</p>
+							<p>3. Madurai Temples</p>
 							<img
-								src={placeholder}
+								src={madurai2}
 								alt="placeholder"
 								className="area-image"
 							></img>
 						</li>
 						<li>
-							<p>4. Number 4</p>
+							<p>4. Jaisalmer</p>
 							<img
-								src={placeholder}
+								src={jaisalmer1}
 								alt="placeholder"
 								className="area-image"
 							></img>
 						</li>
 						<li>
-							<p>5. Number 5</p>
+							<p>5. Jaisalmer</p>
 							<img
-								src={placeholder}
+								src={jaisalmer2}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -131,41 +152,41 @@ function Home() {
 					<p className="t5-title">Top 5 Tourist</p>
 					<ul>
 						<li>
-							<p>1. Number 1</p>
+							<p>1. New Dehli</p>
 							<img
-								src={placeholder}
+								src={dehli1}
 								alt="placeholder"
 								className="area-image"
 							></img>
 						</li>
 						<li>
-							<p>2. Number 2</p>
+							<p>2. Bengaluru</p>
 							<img
-								src={placeholder}
+								src={bengaluru1}
 								alt="placeholder"
 								className="area-image"
 							></img>
 						</li>
 						<li>
-							<p>3. Number 3</p>
+							<p>3. Mumbai</p>
 							<img
-								src={placeholder}
+								src={mumbai1}
 								alt="placeholder"
 								className="area-image"
 							></img>
 						</li>
 						<li>
-							<p>4. Number 4</p>
+							<p>4. Jaipur</p>
 							<img
-								src={placeholder}
+								src={jaipur1}
 								alt="placeholder"
 								className="area-image"
 							></img>
 						</li>
 						<li>
-							<p>5. Number 5</p>
+							<p>5. Amritsar</p>
 							<img
-								src={placeholder}
+								src={amritsar1}
 								alt="placeholder"
 								className="area-image"
 							></img>
