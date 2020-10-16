@@ -48,7 +48,7 @@ function Home() {
 					Tincidunt id aliquet risus feugiat. Fringilla est
 					ullamcorper eget nulla facilisi etiam dignissim diam.{" "}
 				</p>
-				<img src={home5} alt="placeholder" className="body-image"></img>
+				<img src={placeholder} alt="placeholder" className="body-image"></img>
 				<br />
 				<h1>Tourist Attractions</h1>
 				<p className="body-context">
@@ -69,7 +69,7 @@ function Home() {
 					nibh mauris cursus mattis molestie a iaculis at. Arcu odio
 					ut sem nulla pharetra diam sit.
 				</p>
-				<img src={home1} alt="placeholder" className="body-image"></img>
+				<img src={placeholder} alt="placeholder" className="body-image"></img>
 				<br />
 				<h1>Culture and History</h1>
 				<p className="body-context">
@@ -84,22 +84,10 @@ function Home() {
 				</p>
 				<div className="cultural-imgs-home">
 					<img
-						src={home3}
+						src={placeholder}
 						alt="placeholder"
 						className="body-image"
 					></img>
-					<div className="homepage-img-row">
-						<img
-							src={home2}
-							alt="placeholder"
-							className="body-image"
-						></img>
-						<img
-							src={home4}
-							alt="placeholder"
-							className="body-image"
-						></img>
-					</div>
 				</div>
 			</div>
 			<div className="top-5s">
@@ -109,7 +97,7 @@ function Home() {
 						<li>
 							<p>1. Taj Mahal</p>
 							<img
-								src={agra1}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -117,7 +105,7 @@ function Home() {
 						<li>
 							<p>2. Golden Temple</p>
 							<img
-								src={amritsar2}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -125,7 +113,7 @@ function Home() {
 						<li>
 							<p>3. Madurai Temples</p>
 							<img
-								src={madurai2}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -133,7 +121,7 @@ function Home() {
 						<li>
 							<p>4. Jaisalmer</p>
 							<img
-								src={jaisalmer1}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -141,7 +129,7 @@ function Home() {
 						<li>
 							<p>5. Jaisalmer</p>
 							<img
-								src={jaisalmer2}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -154,7 +142,7 @@ function Home() {
 						<li>
 							<p>1. New Dehli</p>
 							<img
-								src={dehli1}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -162,7 +150,7 @@ function Home() {
 						<li>
 							<p>2. Bengaluru</p>
 							<img
-								src={bengaluru1}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -170,7 +158,7 @@ function Home() {
 						<li>
 							<p>3. Mumbai</p>
 							<img
-								src={mumbai1}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -178,7 +166,7 @@ function Home() {
 						<li>
 							<p>4. Jaipur</p>
 							<img
-								src={jaipur1}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
@@ -186,7 +174,7 @@ function Home() {
 						<li>
 							<p>5. Amritsar</p>
 							<img
-								src={amritsar1}
+								src={placeholder}
 								alt="placeholder"
 								className="area-image"
 							></img>
