@@ -3,18 +3,18 @@
 }
 
 .historical-content {
-	margin-left: 50%;
-	transform: translate(-50%);
 	background-color: white;
-	width: 80%;
-	min-height: 70vh;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 70vh;
+	width: 80%;
 }
 
 .historical-title {
+	font-size: 6vh;
 	padding-top: 10vh;
 	padding-bottom: 2vh;
-	font-size: 6vh;
 	text-align: center;
 }
 

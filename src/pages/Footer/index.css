@@ -1,12 +1,12 @@
 .footer-container {
-	margin-left: 50%;
-	transform: translate(-50%);
 	background-color: rgb(164, 255, 184);
-	width: 80%;
-	min-height: 10vh;
-	height: auto;
 	display: flex;
 	font-size: 1.7vh;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 10vh;
+	width: 80%;
 }
 
 .footer-title {
@@ -14,8 +14,8 @@
 }
 
 .bot-sect {
-	width: 30%;
 	height: auto;
-	padding: 2%;
 	line-height: 1.2;
+	padding: 2%;
+	width: 30%;
 }

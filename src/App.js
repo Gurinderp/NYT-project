@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Historical from "./pages/Historical";
 import Tourism from "./pages/Tourism";
 import Footer from "./pages/Footer";
+import Blogs from "./pages/Blogs";
 
 function App() {
 	return (
@@ -14,6 +15,9 @@ function App() {
 				<Nav />
 				<Route exact path="/">
 					<Home />
+				</Route>
+				<Route path="/blogs">
+					<Blogs />
 				</Route>
 				<Route path="/historical">
 					<Historical />

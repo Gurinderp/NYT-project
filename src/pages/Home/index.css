@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
 .area-image {
 	height: 18vh;
 	margin-bottom: 3vh;
@@ -5,6 +7,7 @@
 }
 
 body {
+	font-family: "Lora", serif;
 	background-image: linear-gradient(
 		to right,
 		#ff9933,
@@ -32,20 +35,20 @@ body {
 */
 
 .home-content {
-	margin-left: 50%;
-	transform: translate(-50%);
 	background-color: white;
-	width: 80%;
-	min-height: 70vh;
-	height: auto;
 	display: flex;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 70vh;
+	width: 80%;
 }
 
 .home-text {
-	margin-left: 0;
-	width: 75%;
-	padding: 4%;
 	font-size: 2.5vh;
+	margin-left: 0;
+	padding: 4%;
+	width: 75%;
 }
 
 h1 {
@@ -59,9 +62,9 @@ h1 {
 }
 
 .top-5s {
-	width: 25%;
-	padding: 2%;
 	margin-top: 5vh;
+	padding: 2%;
+	width: 25%;
 }
 
 .t5-title {
@@ -71,6 +74,7 @@ h1 {
 }
 
 /* 
+Flag colors
 #ff9933 orange
 #FFFFFF white
 #138808 green
