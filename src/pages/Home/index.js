@@ -34,6 +34,25 @@ function Home() {
 					augue mauris augue neque.{" "}
 				</p>
 				<br />
+				<h1>Culture and History</h1>
+				<p className="body-context">
+					Ultrices dui sapien eget mi. Rhoncus mattis rhoncus urna
+					neque viverra justo nec ultrices dui. Nisl tincidunt eget
+					nullam non nisi est. Ultricies lacus sed turpis tincidunt id
+					aliquet risus feugiat in. Elementum pulvinar etiam non quam
+					lacus suspendisse faucibus interdum posuere. Nec nam aliquam
+					sem et tortor. Tempor nec feugiat nisl pretium. Aenean
+					euismod elementum nisi quis eleifend quam adipiscing. Ut sem
+					nulla pharetra diam sit amet nisl suscipit adipiscing.
+				</p>
+				<div className="cultural-imgs-home">
+					<img
+						src={placeholder}
+						alt="placeholder"
+						className="body-image"
+					></img>
+				</div>
+				<br />
 				<h1>Historical sites</h1>
 				<p className="body-context">
 					Aliquet nec ullamcorper sit amet risus nullam eget felis
@@ -48,7 +67,11 @@ function Home() {
 					Tincidunt id aliquet risus feugiat. Fringilla est
 					ullamcorper eget nulla facilisi etiam dignissim diam.{" "}
 				</p>
-				<img src={placeholder} alt="placeholder" className="body-image"></img>
+				<img
+					src={placeholder}
+					alt="placeholder"
+					className="body-image"
+				></img>
 				<br />
 				<h1>Tourist Attractions</h1>
 				<p className="body-context">
@@ -69,26 +92,11 @@ function Home() {
 					nibh mauris cursus mattis molestie a iaculis at. Arcu odio
 					ut sem nulla pharetra diam sit.
 				</p>
-				<img src={placeholder} alt="placeholder" className="body-image"></img>
-				<br />
-				<h1>Culture and History</h1>
-				<p className="body-context">
-					Ultrices dui sapien eget mi. Rhoncus mattis rhoncus urna
-					neque viverra justo nec ultrices dui. Nisl tincidunt eget
-					nullam non nisi est. Ultricies lacus sed turpis tincidunt id
-					aliquet risus feugiat in. Elementum pulvinar etiam non quam
-					lacus suspendisse faucibus interdum posuere. Nec nam aliquam
-					sem et tortor. Tempor nec feugiat nisl pretium. Aenean
-					euismod elementum nisi quis eleifend quam adipiscing. Ut sem
-					nulla pharetra diam sit amet nisl suscipit adipiscing.
-				</p>
-				<div className="cultural-imgs-home">
-					<img
-						src={placeholder}
-						alt="placeholder"
-						className="body-image"
-					></img>
-				</div>
+				<img
+					src={placeholder}
+					alt="placeholder"
+					className="body-image"
+				></img>
 			</div>
 			<div className="top-5s">
 				<div className="top-historical">
