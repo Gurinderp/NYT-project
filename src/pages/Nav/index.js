@@ -11,7 +11,7 @@ function Nav() {
 					<img className="nav-img" alt="nav bar" src={chakra}></img>
 				</Link>
 				<p className="logo-text">
-					INDIA <br /> DESTINATIONS
+					APNA <br /> JOURNEYS
 				</p>
 			</div>
 			<ul className="nav-links">
