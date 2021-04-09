@@ -23,27 +23,27 @@ function Home() {
 			<div className="home-text">
 				<h1>Overview</h1>
 				<p className="body-context">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua. Orci a scelerisque purus semper. Viverra vitae
-					congue eu consequat ac felis donec. Eleifend donec pretium
-					vulputate sapien nec sagittis aliquam malesuada bibendum.
-					Mattis ullamcorper velit sed ullamcorper morbi tincidunt
-					ornare massa eget. Nisi scelerisque eu ultrices vitae.
-					Faucibus nisl tincidunt eget nullam non nisi. Ac auctor
-					augue mauris augue neque.{" "}
+					Welcome to Apna Journey - your guide to all the cultural and
+					tourist sites located in the Republic of India with detailed
+					information to help you choose the best destination for you.
+					India is the second-most populous country, yet it is only
+					the seventh largest country by land area. This cultural
+					density offers a wide variety of options ranging from
+					luxurious hotels in vast cities to humble homes in villages.
 				</p>
 				<br />
 				<h1>Culture and History</h1>
 				<p className="body-context">
-					Ultrices dui sapien eget mi. Rhoncus mattis rhoncus urna
-					neque viverra justo nec ultrices dui. Nisl tincidunt eget
-					nullam non nisi est. Ultricies lacus sed turpis tincidunt id
-					aliquet risus feugiat in. Elementum pulvinar etiam non quam
-					lacus suspendisse faucibus interdum posuere. Nec nam aliquam
-					sem et tortor. Tempor nec feugiat nisl pretium. Aenean
-					euismod elementum nisi quis eleifend quam adipiscing. Ut sem
-					nulla pharetra diam sit amet nisl suscipit adipiscing.
+					With a population of over 1.3 billion, India hosts a variety
+					of ethnic and religious groups. Each addition enhances the
+					variety India has to offer. The origins of Hinduism,
+					Buddhism, Jainism, and Sikhism lie deeply ingrained in the
+					population - creating wide spread celebrations, such as the
+					Festival of Colors or the Festival of Lights, and traditions
+					that allow members of all backgrounds to partake and immerse
+					themselves. The culture can also be experienced through the
+					architecture, food, and art available throughout every
+					street.
 				</p>
 				<div className="cultural-imgs-home">
 					<img
@@ -55,17 +55,16 @@ function Home() {
 				<br />
 				<h1>Historical sites</h1>
 				<p className="body-context">
-					Aliquet nec ullamcorper sit amet risus nullam eget felis
-					eget. Interdum consectetur libero id faucibus nisl tincidunt
-					eget nullam. Tempus urna et pharetra pharetra massa massa
-					ultricies mi. Mattis enim ut tellus elementum sagittis
-					vitae. Nulla porttitor massa id neque aliquam. Enim sit amet
-					venenatis urna cursus. A diam sollicitudin tempor id. Nulla
-					pharetra diam sit amet nisl suscipit. Molestie a iaculis at
-					erat pellentesque adipiscing commodo elit. Mauris augue
-					neque gravida in. Nunc sed velit dignissim sodales ut eu.
-					Tincidunt id aliquet risus feugiat. Fringilla est
-					ullamcorper eget nulla facilisi etiam dignissim diam.{" "}
+					The variety of civilizations has led to widespread variety
+					in archiecture and art available in India. Some important
+					historial sites, such as the Golden Temple, have deep
+					religious connections and are still frequently used as such.
+					Others may be entire cities, such as Jaisalmer, which have
+					their integrity preserved while society continues to blossom
+					within them. From the rise and fall of Kingdoms to the
+					adaptation of modern technology, these historical sites have
+					centuries ingrained in their structure and have stood the
+					test of time when society around them could not.
 				</p>
 				<img
 					src={placeholder}
@@ -75,22 +74,14 @@ function Home() {
 				<br />
 				<h1>Tourist Attractions</h1>
 				<p className="body-context">
-					Aliquam malesuada bibendum arcu vitae elementum curabitur
-					vitae nunc sed. Scelerisque mauris pellentesque pulvinar
-					pellentesque habitant morbi. Lorem ipsum dolor sit amet
-					consectetur adipiscing elit pellentesque habitant. Eget nunc
-					lobortis mattis aliquam. Habitant morbi tristique senectus
-					et. Cras adipiscing enim eu turpis egestas pretium aenean
-					pharetra magna. Dui faucibus in ornare quam viverra orci
-					sagittis eu volutpat. Interdum varius sit amet mattis.
-					Tristique senectus et netus et malesuada fames ac turpis.
-					Quisque id diam vel quam elementum pulvinar etiam non. Amet
-					cursus sit amet dictum. Auctor urna nunc id cursus metus
-					aliquam. Donec ac odio tempor orci dapibus ultrices in.
-					Neque convallis a cras semper auctor neque. Fermentum
-					iaculis eu non diam phasellus vestibulum lorem sed risus. In
-					nibh mauris cursus mattis molestie a iaculis at. Arcu odio
-					ut sem nulla pharetra diam sit.
+					India has a deep connection with nature not available in
+					every country. The exotic climate is home to animals equally
+					as exotic, such as Tigers, Red Pandas, or the Asian
+					Elephant. Tourism sites also cater to those that prefer
+					luxury and relaxation, such as the Beaches of Goa, or luxury
+					hotels in Jaipur - Taj Rambagh Palace, The Raj Palace, and
+					ITC Rajputana. The vast nation allows every visitor to find
+					their new peace and have an amazing time doing so.
 				</p>
 				<img
 					src={placeholder}

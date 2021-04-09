@@ -11,7 +11,7 @@ function Nav() {
 					<img className="nav-img" alt="nav bar" src={chakra}></img>
 				</Link>
 				<p className="logo-text">
-					APNA <br /> JOURNEYS
+					APNA <br /> JOURNEY
 				</p>
 			</div>
 			<ul className="nav-links">
