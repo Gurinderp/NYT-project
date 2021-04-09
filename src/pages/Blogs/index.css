@@ -1,5 +1,6 @@
 .blog-list-container {
 	background-color: white;
+	box-shadow: 0px 0px 40px -5px #c76300;
 	height: auto;
 	min-height: 70vh;
 	margin-left: auto;
