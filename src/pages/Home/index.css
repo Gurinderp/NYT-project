@@ -5,16 +5,14 @@
 	margin-bottom: 3vh;
 	margin-top: 1vh;
 }
+/*
+#ff9933 - orange
+#138808 - green
+*/
 
 body {
 	font-family: "Lora", serif;
-	background-image: linear-gradient(
-		to right,
-		#ff9933,
-		#ff9933,
-		#138808,
-		#138808
-	);
+	background-color: #ffa143;
 }
 
 .body-context {
@@ -43,6 +41,7 @@ body {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 14vh;
 	min-height: 70vh;
 	width: 80%;
 }
